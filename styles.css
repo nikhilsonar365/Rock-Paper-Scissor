@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgb(31, 4, 57);
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.hands div {
+  background-color: aqua;
+  padding: 15px;
+  border-radius: 25%;
+}
+
+.hands div:hover {
+    background-color: rgb(31, 4, 57); 
+}
+
+.hands img {
+    width: 200px;
+    height: 180px;
+    border-radius: 25%;
+}
+
+.count {
+    display: flex;
+    gap: 20px;
+}
+
+.count p {
+    font-size: 28px;
+}
+
+.result  {
+    margin: 30px;
+    background-color: rgb(31, 4, 57);
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
